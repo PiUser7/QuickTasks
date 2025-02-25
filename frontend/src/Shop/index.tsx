@@ -6,9 +6,6 @@ import Header from './components/Header';
 
 type MyPaymentMetadata = {};
 
-Pi.init({ version: "2.0", sandbox: true });
-
-
 type AuthResult = {
   accessToken: string,
   user: {
