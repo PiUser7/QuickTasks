@@ -4,6 +4,12 @@ import ProductCard from './components/ProductCard';
 import SignIn from './components/SignIn';
 import Header from './components/Header';
 
+import { Pi } from '@pi/sdk'; // Ensure this import is available
+
+// Initialize Pi SDK in sandbox mode
+Pi.init({ version: "2.0", sandbox: true });
+
+
 type MyPaymentMetadata = {};
 
 type AuthResult = {
